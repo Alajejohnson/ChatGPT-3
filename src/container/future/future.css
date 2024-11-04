@@ -1,0 +1,77 @@
+.future{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+.future__today{
+    width: 40%;
+}
+.future__today h5{
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px;
+    width: 426px;
+
+}
+.future__today p{
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+color: hsla(11, 100%, 72%, 1);
+}
+.future__uses .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+    flex-direction: row;
+    gap: 5rem;
+   
+}
+.future__uses .info__title h5{
+    width: 182px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+}
+.future__uses .info__subtitle p{
+    font-size: 14px;
+    line-height: 24px;
+    width: 334px;
+}
+@media only screen and (max-width: 550px){
+    .future{
+        flex-direction: column;
+    }
+    .future__uses{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .future__uses .info{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .future__today{
+        width: fit-content;
+    }
+    .future__today h5{
+        width: fit-content;
+    }
+    .future__uses .info__subtitle p{
+        width: fit-content;
+    }
+}
+@media only screen and (max-width: 768px){
+    .future{
+        flex-direction: column;
+    }
+    .future__uses .info__subtitle p{
+        width: fit-content;
+    }
+
+}
+@media only screen and (max-width: 1200px){
+    .future{
+        flex-direction: column;
+    }
+
+}

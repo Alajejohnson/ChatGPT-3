@@ -1,0 +1,73 @@
+.what{
+    background-color:  hsla(210, 90%, 17%, 1);
+    margin: 4rem ;
+
+}
+.what__explore{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.what__explore h5{
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px;
+    width: 472px;
+}
+.what__explore p{
+    color: hsla(11, 100%, 72%, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.what__uses{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.what__uses .info{
+    flex-direction: column;
+}
+.what__uses .info__subtitle p{
+    width: 334px;
+}
+@media only screen and (max-width: 550px){
+    .what{
+        margin: 3rem;
+    }
+    .what__explore{
+        flex-direction: column;
+    }
+    .what__explore h5{
+        width: fit-content;
+    }
+    .what__uses{
+        flex-direction: column;
+    }
+    .what__uses .info__subtitle p{
+        width: fit-content;
+    }
+}
+@media only screen and (max-width: 768px){
+    .what .info{
+        flex-direction: column;
+    }
+    .what__uses .info__subtitle p{
+        width: fit-content;
+    }
+    .what .info__subtitle p{
+        width: fit-content;
+    }
+
+}
+@media only screen and (max-width: 1200px){
+    .what .info{
+        flex-direction: column;
+    }
+    .what__uses .info__subtitle p{
+        width: fit-content;
+    }
+    .what .info__subtitle p{
+        width: fit-content;
+    }
+}

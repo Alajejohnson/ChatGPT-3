@@ -1,0 +1,16 @@
+.companies__logo{
+    justify-content: center ;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.companies__logo img{
+    gap: 2rem;
+    justify-content: space-between;
+    height: 24.15px;
+}
+@media only screen and (max-width: 550px){
+    .companies__logo{
+        flex-direction: column;
+    }
+}

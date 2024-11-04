@@ -1,0 +1,108 @@
+.header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__left{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.header__links{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.header__links a , .header__sign a, .header__link a{ 
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+    font-weight:  600;
+    line-height: 24.59px;
+}
+.header__sign, .header__sign1{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.header__sign1{
+    justify-content: start;
+}
+.header__sign button, .header__sign1 button{
+    background-color: var(--button-color);
+    color: var(--white);
+    padding:  1rem 2rem;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.but{
+    display: none;
+    z-index: 2;
+}
+
+
+@media only screen and (max-width: 550px){
+    .header__links, .header__sign{
+        display: none;
+        
+    }
+    .header{
+        position: relative;
+    }
+    .header__link a{
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .header__link{
+        display: inline-block;   
+        position: absolute; 
+        top: 0;
+        right: 0;
+        background-color: var(--button-color);
+        height: 45vh;
+        width: 40%;
+        padding: 5rem 30px;
+
+
+    }
+    .header__sign1{
+        flex-direction: column;
+    }
+    .header__sign1 button{
+        background-color: var(--white);
+        color: var(--button-color);
+    }
+    .but{
+        display: block;
+        /* background-color: var(--button-color); */
+        padding: 1rem 2rem;
+        border: 0;
+        border-radius: 10px;
+        font-size: 20px;
+        color: var(--white);
+    }
+  
+}
+@media only screen and (max-width: 768px){
+    .header__links a , .header__sign a{ 
+        font-size: 11px;
+        font-weight:  600;
+    }
+    /* .header__sign button{
+        padding:  1rem 1.7rem;
+    } */
+
+}
+@media only screen and (max-width: 1200px){
+    .header__links a , .header__sign a{ 
+        font-size: 12px;
+    }
+    /* .header__sign button{
+        padding:  1rem 1.7rem;
+    } */
+
+}

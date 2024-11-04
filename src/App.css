@@ -1,0 +1,62 @@
+:root{
+  --button-color: rgba(255, 72, 32, 1);
+  --font-family: 'Manrope', sans-serif;
+  --text-headings: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  --text-color: hsla(210, 58%, 69%, 1);
+  --white: hsla(0, 0%, 100%, 1);
+  
+}
+*, html{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.app{
+  background: linear-gradient(144deg, rgba(0, 40, 93, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  font-family: var(--font-family);
+}
+.section__padding{
+  padding: 2rem 4rem;
+} 
+.spacing{
+  margin-top: 2rem;
+}
+.spacing__M{
+  margin-top: 4rem;
+}
+.text__headings{
+  background: var(--text-headings);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.before__after{
+  position: relative;
+}
+.before__after::before{
+  position: absolute;
+  height: 3px;
+  width: 38px;
+  background: var(--text-headings);
+  content: " ";
+
+}
+
+body {
+  scroll-behavior: smooth;
+
+}
+@media only screen and (max-width: 550px){
+  .section__padding{
+    padding: 2rem 3rem;
+  } 
+}
+@media only screen and (max-width: 768px){
+  .section__padding{
+    padding: 2rem 3rem;
+  } 
+}
+@media only screen and (max-width: 1200px){
+  .section__padding{
+    padding: 2rem 2.8rem;
+  }
+}

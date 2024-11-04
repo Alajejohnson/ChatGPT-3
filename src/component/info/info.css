@@ -1,0 +1,34 @@
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0rem;
+    flex-direction: row;
+}
+.info__title h5{
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+   margin-top: 1rem;
+}
+.info__title div{
+    height: 3px;
+    width: 38px;
+    background: var(--text-headings);
+}
+.info__subtitle p{
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 731px;
+}
+@media only screen and (max-width: 550px){
+    .info{
+        flex-direction: column;
+    }
+    .info__subtitle p{
+        width: fit-content;
+    }
+}

@@ -1,0 +1,48 @@
+.whatisgpt__container{
+    background-color: hsla(210, 90%, 17%, 1);
+    padding: 3rem 3rem;
+}
+.chat__info , .chat__header, .chat__about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chat__info h5{
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+.chat__info p{
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    }
+.chat__header h5{
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px;
+    width: 472px;
+}
+.chat__header p{
+    color: hsla(11, 100%, 72%, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+.chat__about h5{
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+.chat__about p{
+   color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}

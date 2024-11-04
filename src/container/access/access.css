@@ -1,0 +1,48 @@
+.Access{
+    background-color: hsla(210, 90%, 11%, 1);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem 0;
+}
+.access__title{
+    text-align: center;
+}
+.access__title h5{
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    width: 821px;
+    align-items: center;
+}
+.access__button button{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: var(--white);
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border-color: var(--white);
+}
+.access__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 550px){
+    .access__title h5{
+        width: fit-content;
+    }
+}
+@media only screen and (max-width: 768px){
+    .access__title h5{
+        width: fit-content;
+    }
+
+}
+@media only screen and (max-width: 1200px){
+    .access__title h5{
+        width: fit-content;
+    }
+}

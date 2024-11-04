@@ -1,0 +1,96 @@
+.hero{
+    display: flex;
+}
+.hero__content h1{
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    width: 614px;
+}
+.hero__content p{
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+
+}
+
+.hero__input input{
+    background-color: hsla(210, 89%, 18%, 1);
+    border: none;
+    border-radius: 5px, 0px, 0px, 5px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    padding: 1.5rem ;
+    width: 60%;
+    flex: 1;
+    border-radius: 5px 0px 0px 5px;
+    
+}
+.hero__input input::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    color: hsla(210, 36%, 38%, 1);
+}
+.hero__input button{
+    background-color: hsla(11, 100%, 56%, 1);
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.32px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    padding: 1.5rem;
+
+}
+.hero__people{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 2rem;
+}
+.hero__people p{
+    color: var(--white);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 37.61px;
+}
+.hero__people img{
+    height: 38px;
+}
+
+@media only screen and (max-width: 550px){
+    .hero{
+        flex-direction: column;
+    }
+    .hero__content h1{
+        font-size: 60px;
+        width: fit-content;
+    }
+    .hero__input{
+        display: flex;
+        width: fit-content;
+    }
+    .hero__people{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+    .hero{
+        flex-direction: column;
+    }
+    .hero__content h1{
+        width: fit-content;
+    }
+}
+@media only screen and (max-width: 1200px){
+        .hero{
+        flex-direction: column;
+    }
+}
